@@ -35,8 +35,7 @@ class MathUtil
       rotations << numbers_array.to_s.to_i
     end
     
-    puts rotations.inspect
-    
+    rotations
     
   end
   
