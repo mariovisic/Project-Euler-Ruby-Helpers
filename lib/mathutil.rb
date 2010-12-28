@@ -3,6 +3,7 @@ class MathUtil
   # Determines if a number is prime
   def self.prime?(number)
     num_loops = Math.sqrt(number)
+    return false if number < 1
     for i in 2..num_loops
       return false if (number % i == 0) && (number != i)
     end
